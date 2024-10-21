@@ -1,1 +1,1 @@
-# HCFTemplate
+# EventTemplate
