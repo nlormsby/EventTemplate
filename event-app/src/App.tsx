@@ -1,23 +1,12 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import './App.css';
 import { Redirect } from "./components/Redirect";
-import { mainPage } from './views/mainPage';
-
-// function App() {
-//   let redirectURL = "https://github.com/nlormsby/EventTemplate"
-  
-//   return (
-//     <div className="AppContainer">
-//       <Redirect url={redirectURL} text='Click Here' />
-//       <mainPage />
-//     </div>
-//   );
-// }
+import { MainPage } from './views/mainPage';
 
 const App = () => {
   // HINT: Wrap the MyBudgetTracker component with AppContextProvider
-    return <mainPage />;
-
+    return <MainPage />;
   
 };
 
