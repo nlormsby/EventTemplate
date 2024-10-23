@@ -10,7 +10,6 @@ export const MainPage = () => {
         <div className="container">
             <NavBar />
             <Home />
-
             <About />
             <Sponser />
             <FAQ />

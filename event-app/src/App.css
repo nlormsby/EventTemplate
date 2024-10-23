@@ -6,6 +6,13 @@
   --normalFont: Arial;
   --titleFontSize: 50px;
   --normalFontSize:  30px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .Redirect-Button {
@@ -19,6 +26,15 @@
   font-family: var(--normalFont);
   font-size: var(--normalFontSize);
   font-weight: bold;
+}
+
+.container {
+  display: block;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  background-color: var(--lightBlue);
+  width: 100vw;
 }
 
 
@@ -37,19 +53,20 @@ hr {
 
 /* ----------------------------------------Sponser Css------------------------------------------- */
 .navBar {
-  background-color: #182b49;
+  background-color: var(--lightBlue);
+  width: 100%;
 }
 
 #navBar a:hover {
-  color: white;
-  background-color: #182b49;
+  color: var(--white);
+  background-color: var(--darkBlue);
 }
 
 #navBar {
   position: sticky;
   top: 0;
   overflow: hidden;
-  background-color: #235ba9;
+  background-color: var(--lightBlue);
   max-width: 100%;
   text-decoration: none;
 }
@@ -67,25 +84,25 @@ hr {
 /* ----------------------------------------Home Css------------------------------------------- */
 .home {
   height: 100vh;
-  width: auto;
+  width: 100%;
   background-color: white;
 }
 .home h1 {
-  color:#182b49;
+  color: var(--darkBlue);
   text-align: center;
   font-weight: 1000;
   font-size: 100px;
   padding-top: 70px;
 }
 .home h2 {
-  color:#182b49;
+  color: var(--darkBlue);
   text-align: center;
   font-weight: 1000;
   font-size: 25px;
   
 }
 .home h3 {
-  color:#182b49;
+  color: var(--darkBlue);
   text-align: center;
   font-weight: 500;
   font-size: 35px;
@@ -107,7 +124,7 @@ hr {
   grid-column: 1 / 2;
   grid-row: auto;
   color: white;
-  max-height:500px;
+  /* max-height:500px; */
   float: center;
   width: 50%;
   height: 80px;
@@ -130,7 +147,7 @@ hr {
   grid-column: 2 / 3;
   grid-row: auto;
   color: white;
-  max-height:500px;
+  /* max-height:500px; */
   float: center;
   width: 50%;
   height: 80px;
@@ -147,8 +164,8 @@ hr {
 /* ----------------------------------------About Css------------------------------------------- */
 #about {
   height: 100vh;
-  width: auto;
-  background-color: #235ba9;
+  width: 100%;
+  background-color: var(--lightBlue);
   scroll-margin-top: 75px;
 }
 #about h1 {
@@ -165,12 +182,12 @@ hr {
 /* ----------------------------------------Sponser Css------------------------------------------- */
 #spons {
   height: 100vh;
-  width: auto;
+  width: 100%;
   background-color: white;
   scroll-margin-top: 75px;
 }
 #spons h1 {
-  color:#182b49;
+  color:var(--darkBlue);
   text-align: center;
   font-weight: 650;
   font-size: 60px;
@@ -181,8 +198,8 @@ hr {
 /* ----------------------------------------FAQ Css------------------------------------------- */
 #faq {
   height: 100vh;
-  width: auto;
-  background-color: #235ba9;
+  width: 100%;
+  background-color: var(--lightBlue);
   scroll-margin-top: 75px;
 }
 #faq h1 {
@@ -197,12 +214,12 @@ hr {
 /* ----------------------------------------Contact Css------------------------------------------- */
 #contact {
   height: 100vh;
-  width: auto;
+  width: 100%;
   background-color: white;
   scroll-margin-top: 75px;
 }
 #contact h1 {
-  color:#182b49;
+  color:var(--darkBlue);
   text-align: center;
   font-weight: 650;
   font-size: 60px;
