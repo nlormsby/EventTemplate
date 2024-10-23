@@ -7,13 +7,14 @@ import { Home } from "../components/home";
 
 export const MainPage = () => {
     return (
-        <div className="container">
+        <body>
             <NavBar />
             <Home />
             <About />
             <Sponser />
             <FAQ />
             <Contact />
-        </div>
+        </body>
+        
     );
 };
