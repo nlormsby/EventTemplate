@@ -181,10 +181,10 @@ button {
 
 /* ----------------------------------------Sponser Css------------------------------------------- */
 #spons {
-  height: 100vh;
+  height: fit-content;
   width: 100%;
   background-color: white;
-  scroll-margin-top: 75px;
+  scroll-margin-top: 85px;
 }
 #spons h1 {
   color:var(--darkBlue);
@@ -194,6 +194,12 @@ button {
   /* padding-top: 70px; */
 }
 
+.sPic {
+  display:block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* ----------------------------------------FAQ Css------------------------------------------- */
@@ -201,7 +207,7 @@ button {
   height: 100vh;
   width: 100%;
   background-color: var(--lightBlue);
-  scroll-margin-top: 75px;
+  scroll-margin-top: 85px;
 }
 #faq h1 {
   color:black;
@@ -218,7 +224,7 @@ button {
   height: 100vh;
   width: 100%;
   background-color: white;
-  scroll-margin-top: 75px;
+  scroll-margin-top: 85px;
 }
 #contact h1 {
   color:var(--darkBlue);
@@ -303,6 +309,28 @@ button {
     width: 250px;
     height: 70px;
   }
+
+  #about {
+    scroll-margin-top: 0px;
+  }
+
+  #spons {
+    scroll-margin-top: 0px;
+  }
+
+  #faq {
+    scroll-margin-top: 0px;
+  }
+  
+  #contact {
+    scroll-margin-top: 0px;
+  }
+
+  .sPic {
+    height: 15%;
+    width:auto;
+    display:unset;
+  }
 }
 @media (max-width: 600px) {
   .link {
@@ -346,5 +374,11 @@ button {
   
   #contact {
     scroll-margin-top: 0px;
+  }
+
+  .sPic {
+    height: 10%;
+    width:auto;
+    max-width: 50%;
   }
 }
