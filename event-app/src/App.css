@@ -12,7 +12,7 @@
 }
 
 
-.Redirect-Button {
+/* .Redirect-Button {
   width: 20%;
   height: 50px;
   border-radius: 999px;
@@ -23,7 +23,7 @@
   font-family: var(--normalFont);
   font-size: var(--normalFontSize);
   font-weight: bold;
-}
+} */
 /* 
 .container {
   display: block;
@@ -149,7 +149,7 @@ hr {
   align-items: center;
 }
 
-button {
+.Redirect-Button {
   color: white;
   float: center;
   width: 400px;
@@ -335,10 +335,11 @@ button {
   }
 
    /* Home */
-   button {
+   .Redirect-Button {
     width: 250px;
     height: 70px;
   }
+  
 
   #about {
     scroll-margin-top: 0px;
@@ -389,7 +390,7 @@ button {
     font-size: 22px;
   }
     /* Home */
-  button {
+  .Redirect-Button {
     width: 170px;
     height: 60px;
   }

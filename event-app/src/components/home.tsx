@@ -1,3 +1,4 @@
+import { Redirect } from "./Redirect";
 
 export const Home = () => {
     return (
@@ -10,10 +11,12 @@ export const Home = () => {
                 
                 <div className="wrapper">
                     <div className="one">
-                        <button> button 1</button>
+                        {/* <button href=""> button 1</button> */}
+                        <Redirect url="" text= "button 1"/>
                     </div>
                     <div className="two">
-                        <button> button 2</button>
+                        {/* <button> button 2</button> */}
+                        <Redirect url="" text= "button 2"/>
                     </div>
                 </div>
             </div>

@@ -13,5 +13,6 @@ const squestions = [
         'That',
     }
   ]
+  // To add more questions just add to this list, increment id, The title is the question, the info is the answer
   export default squestions
   
