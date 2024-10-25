@@ -37,25 +37,25 @@
   float:right;
 } */
 
+hr {
+  width: 90%;
+  margin: auto;
+  z-index: 0;
+}
 
+/* ----------------------------------------navBar Css------------------------------------------- */
 .link {
   text-decoration: none;
   display: inline;
-  padding: 20px 20px;
+  padding: 20px 10px;
   font-weight: 700;
   font-size: large;
 }
 
-hr {
-  width: 90%;
-  margin: auto;
-}
-
-/* ----------------------------------------Sponser Css------------------------------------------- */
 .navBar {
   background-color: var(--lightBlue);
   width: 100%;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
 }
 
 #navBar a:hover {
@@ -65,6 +65,7 @@ hr {
 
 #navBar {
   position: sticky;
+  z-index: 1;
   top: 0;
   overflow: hidden;
   background-color: var(--lightBlue);
@@ -79,9 +80,8 @@ hr {
   text-align: center;
   font-size: 30px;
   text-decoration: none;
-  width: 10%;
+  width: 15%;
 }
-
 
 /* ----------------------------------------Home Css------------------------------------------- */
 .home {
@@ -123,10 +123,10 @@ hr {
   padding-bottom: 30px;
 }
 
-.home .wrapper {
-  /* display: inline-grid;
-  grid-template-columns: repeat(4, 1fr); */
-  display: flex;
+.wrapper {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* display: flex; */
   flex-direction: row;
   gap: 50px;
   justify-content: center;
@@ -136,16 +136,16 @@ hr {
   padding-top: 50px;
 }
 
-.home .wrapper .two {
-  /* text-align: center;
-  grid-column: 3 / 4;
-  grid-row: auto; */
+.wrapper .one {
+  text-align: center;
+  grid-column: 1 / 2;
+  grid-row: 1;
   align-items: center;
 }
-.home .wrapper .one {
-  /* text-align: center;
+.wrapper .two {
+  text-align: center;
   grid-column: 2 / 3;
-  grid-row: auto; */
+  grid-row: 1;
   align-items: center;
 }
 
@@ -164,22 +164,19 @@ button {
   font-weight: bold;
 }
 
+
 /* ----------------------------------------About Css------------------------------------------- */
 #about {
   height: 100vh;
   width: 100%;
   background-color: var(--lightBlue);
-  scroll-margin-top: 75px;
+  scroll-margin-top: 85px;
 }
 #about h1 {
   color:black;
   text-align: center;
   font-weight: 650;
   font-size: 60px;
-  /* padding-top: 70px; */
-}
-.aboutTwo {
-  float: left;
 }
 
 /* ----------------------------------------Sponser Css------------------------------------------- */
@@ -198,6 +195,7 @@ button {
 }
 
 
+
 /* ----------------------------------------FAQ Css------------------------------------------- */
 #faq {
   height: 100vh;
@@ -214,6 +212,7 @@ button {
 }
 
 
+
 /* ----------------------------------------Contact Css------------------------------------------- */
 #contact {
   height: 100vh;
@@ -228,6 +227,7 @@ button {
   font-size: 60px;
   /* padding-top: 70px; */
 }
+
 
 /* ----------------------------------------Accordian stuff Css------------------------------------------- */
 .question {
@@ -273,4 +273,78 @@ button {
 
 .question-title {
   cursor: pointer;
+}
+
+@media (max-width: 1000px) and  (min-width: 600px) {
+  .link {
+    text-decoration: none;
+    display: inline;
+    padding: 20px 10px;
+    font-weight: 700;
+    font-size:small;
+  }
+  
+  #navBar {
+    position: static;
+  }
+  
+  #navBar a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+    font-size: 30px;
+  }
+
+   /* Home */
+   button {
+    width: 250px;
+    height: 70px;
+  }
+}
+@media (max-width: 600px) {
+  .link {
+    text-decoration: none;
+    display: inline;
+    padding: 20px 10px;
+    font-weight: 700;
+    font-size:small;
+  }
+  
+  #navBar {
+    position: static;
+  }
+  
+  #navBar a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+    font-size: 22px;
+  }
+    /* Home */
+  button {
+    width: 170px;
+    height: 60px;
+  }
+
+  #about {
+    scroll-margin-top: 0px;
+  }
+
+  #spons {
+    scroll-margin-top: 0px;
+  }
+
+  #faq {
+    scroll-margin-top: 0px;
+  }
+  
+  #contact {
+    scroll-margin-top: 0px;
+  }
 }

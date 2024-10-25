@@ -6,14 +6,15 @@ export const About = () => {
             <hr></hr>
             <div className="wrapper">
                 <div className="one">
-                    {/* some image */}
+                    {/* some image */}hi
                 </div>
-                <div className="aboutTwo">
+                <div className="two">
                     <p>
                         some text about  {/* edit here */}
                     </p>
                 </div>
             </div>
+            
         </div>
     );
 };
