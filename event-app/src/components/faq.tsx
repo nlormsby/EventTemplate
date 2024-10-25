@@ -5,6 +5,8 @@ import rdata from '../types/recruitQ';
 import sdata from '../types/studentQ';
 import OneQuestion from '../context/dropDown';
 
+//to edit the questions and answer go to types and edit the three files there
+
 export const FAQ = () => {
     const [gquestions, setGQuestions] = useState(gdata);
     const [rquestions, setRQuestions] = useState(rdata);

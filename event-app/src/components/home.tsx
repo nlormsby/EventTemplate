@@ -11,15 +11,14 @@ export const Home = () => {
                 
                 <div className="wrapper">
                     <div className="one">
-                        {/* <button href=""> button 1</button> */}
                         <Redirect url="" text= "button 1"/>
                     </div>
                     <div className="two">
-                        {/* <button> button 2</button> */}
+
                         <Redirect url="" text= "button 2"/>
                     </div>
                 </div>
             </div>
         </div>
     );
-};
+};//just add the url to the two buttons and change text to change what appears on the button

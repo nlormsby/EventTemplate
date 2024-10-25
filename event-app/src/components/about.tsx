@@ -15,11 +15,11 @@ export const About = () => {
                     students with high GPAs and excellent academic records.
                     This exclusive career fair allows recruiters to connect with a
                     select group of high-achieving students in an intimate
-                    setting.  {/* edit here */}
+                    setting. 
                     </p>
                 </div>
             </div>
             
         </div>
     );
-};
+};//we can just make this one big chunk of text or add some image, but dunnno what image to add

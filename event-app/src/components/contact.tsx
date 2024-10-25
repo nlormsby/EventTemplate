@@ -14,4 +14,4 @@ export const Contact = () => {
             </div>
         </div>
     );
-};
+};//idk what else to add here
