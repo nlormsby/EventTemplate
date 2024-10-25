@@ -10,7 +10,12 @@ export const About = () => {
                 </div>
                 <div className="two">
                     <p>
-                        some text about  {/* edit here */}
+                    The Honors Career Fair (HCF) at UC San Diego is an
+                    annual, student-organized event for top honors engineering
+                    students with high GPAs and excellent academic records.
+                    This exclusive career fair allows recruiters to connect with a
+                    select group of high-achieving students in an intimate
+                    setting.  {/* edit here */}
                     </p>
                 </div>
             </div>
