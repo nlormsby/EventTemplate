@@ -1,6 +1,7 @@
 # For Praveen
 
 To run the website, in the terminal, 'cd' into the 'event-app' directory, then do 'npm install', then 'npm start'
+(download NodeJS if you haven't, you will need it to use npm)
 
 # Getting Started with Create React App
 
