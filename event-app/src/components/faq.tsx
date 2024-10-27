@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react'
+import { FaqSect } from "./faqSect";
 import gdata from '../types/genQ';
 import rdata from '../types/recruitQ';
 import sdata from '../types/studentQ';
@@ -14,28 +15,14 @@ export const FAQ = () => {
 
     return (
         <div id="faq">
-            <h1>Frequently Asked Questions</h1>
-            <hr></hr>
-            <div>
-                <h2>General</h2>
-                <p>
-                    {gquestions.map((question) => (
-                    <OneQuestion key={question.id} {...question} />))}
-                </p>
+            <div id="faqTitle">
+                <h1>Frequently Asked Questions</h1>
+                <hr />
             </div>
-            <div>
-                <h2>Recruiter</h2>
-                <p>
-                    {rquestions.map((question) => (
-                    <OneQuestion key={question.id} {...question} />))}
-                </p>
-            </div>
-            <div>
-                <h2>Student</h2>
-                <p>
-                    {squestions.map((question) => (
-                    <OneQuestion key={question.id} {...question} />))}
-                </p>
+            <div id="faqBody">
+                <FaqSect title="General" questions={gquestions} />
+                <FaqSect title="Recruiter" questions={rquestions} />
+                <FaqSect title="Student" questions={squestions} />
             </div>
             
         </div>

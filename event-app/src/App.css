@@ -213,6 +213,9 @@ hr {
   width: 100%;
   background-color: var(--lightBlue);
   scroll-margin-top: 85px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 #faq h1 {
   color:black;
@@ -221,7 +224,20 @@ hr {
   font-size: 60px;
   /* padding-top: 70px; */
 }
-
+#faqTitle {
+  margin: 50px;
+  padding-bottom: 50px;
+}
+#faqBody {
+  width: 70%;
+}
+.boxTitle {
+  font-weight: 700;
+  font-size: 30px;
+}
+.faqSec {
+  padding: 20px;
+}
 
 
 /* ----------------------------------------Contact Css------------------------------------------- */
@@ -269,6 +285,8 @@ hr {
   background-color: rgb(174, 174, 174);
   margin-left: 5px;
   margin-right: 5px;
+  border-radius: 8px;
+  border: 2px solid black;
 }
 .question h4 {
   text-transform: none;
@@ -278,6 +296,8 @@ hr {
   color: var(--clr-grey-3);
   margin-bottom: 0;
   margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 20px;
   /* background-color: grey; */
 }
 .question header {
@@ -288,9 +308,13 @@ hr {
 }
 .question header h4 {
   margin-bottom: 0;
+  font-weight: 1000;
+  font-size: 24px;
   /* background-color: white; */
 }
 .btn {
+  font-size: 50px;
+  font-weight: 800;
   background: transparent;
   border-color: transparent;
   width: 2rem;
@@ -305,6 +329,8 @@ hr {
   margin-left: 1rem;
   align-self: center;
   min-width: 2rem;
+  text-align: center;
+  margin-top: -10px;
 }
 
 .question-title {
