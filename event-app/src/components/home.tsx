@@ -11,7 +11,7 @@ export const Home = () => {
                 
                 <div className="wrapper">
                     <div className="one">
-                        <Redirect url="" text= "button 1"/>
+                        <Redirect url="https://docs.google.com/forms/d/e/1FAIpQLSfba2J5J1q-9A-s53gr0Bnf4NQ_Qi_UL2PNPz6nXywxh0PkVg/viewform?usp=sf_link" text= "Student Registration"/>
                     </div>
                     <div className="two">
 

@@ -4,7 +4,7 @@ export const Contact = () => {
         <div id="contact">
             <h1>Contact</h1>
             <hr></hr>
-            <h2>If ypu have any question you can contact us at</h2>
+            <h2>If you have any question you can contact us at</h2>
             <h2>etjenkins@ucsd.edu</h2>
             <p> </p>
             <div id="organized">

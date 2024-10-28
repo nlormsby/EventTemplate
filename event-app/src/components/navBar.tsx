@@ -17,7 +17,7 @@ export const NavBar = () => {
 
                 <a className="link"
                 href="#spons">
-                    Sponsers</a>
+                    Sponsors</a>
 
                 <a className="link"
                 href="#about">
