@@ -6,14 +6,15 @@ export const About = () => {
             <hr></hr>
             <div className="wrapper">
                 <div className="one">
-                    {/* some image */}hi
+                    <img className="sPic" src="images\HCF_Pic.png"/>
                 </div>
                 <div className="two">
                     <p>
                     The Honors Career Fair (HCF) at UC San Diego is an
                     annual, student-organized event for top honors engineering
-                    students with high GPAs and excellent academic records.
-                    This exclusive career fair allows recruiters to connect with a
+                    students with high GPAs and excellent academic records. This event
+                    is co-hosted by Eta Kappa Nu (HKN), Tau Beta Pi, and UCSD Scholar's 
+                    Society. This exclusive career fair allows recruiters to connect with a
                     select group of high-achieving students in an intimate
                     setting. 
                     </p>
@@ -21,5 +22,5 @@ export const About = () => {
             </div>
             
         </div>
-    );
-};//we can just make this one big chunk of text or add some image, but dunnno what image to add
+    );//make text bigger to fill entire blue section
+};

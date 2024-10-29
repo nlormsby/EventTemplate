@@ -13,12 +13,9 @@ export const Home = () => {
                     <div className="one">
                         <Redirect url="https://docs.google.com/forms/d/e/1FAIpQLSfba2J5J1q-9A-s53gr0Bnf4NQ_Qi_UL2PNPz6nXywxh0PkVg/viewform?usp=sf_link" text= "Student Registration"/>
                     </div>
-                    <div className="two">
-
-                        <Redirect url="" text= "button 2"/>
-                    </div>
+                    
                 </div>
             </div>
         </div>
-    );
+    );//Only need one button, could you guys center this
 };//just add the url to the two buttons and change text to change what appears on the button

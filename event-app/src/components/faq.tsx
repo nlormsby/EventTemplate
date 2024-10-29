@@ -21,8 +21,7 @@ export const FAQ = () => {
             </div>
             <div id="faqBody">
                 <FaqSect title="General" questions={gquestions} />
-                <FaqSect title="Recruiter" questions={rquestions} />
-                <FaqSect title="Student" questions={squestions} />
+                
             </div>
             
         </div>
