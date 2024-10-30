@@ -92,6 +92,7 @@ hr {
   align-items: center;
   justify-content: center;
   height: calc(100vh - 90px);
+  margin: auto;
 }
 .home .content {
   align-items: center;
@@ -162,6 +163,14 @@ hr {
   font-family: var(--normalFont);
   font-size: var(--normalFontSize);
   font-weight: bold;
+  align-items: center;
+}
+
+.regButton {
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
 }
 
 
@@ -364,6 +373,7 @@ hr {
    .Redirect-Button {
     width: 250px;
     height: 70px;
+    font-size: 23px;
   }
   
 
@@ -419,6 +429,7 @@ hr {
   .Redirect-Button {
     width: 170px;
     height: 60px;
+    font-size: 20px;
   }
 
   #about {

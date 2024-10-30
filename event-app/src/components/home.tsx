@@ -8,14 +8,12 @@ export const Home = () => {
                 <h3>UC San Diego Honors Career Fair</h3>
                 <h2>Qualcomm Room, Jacobs Hall</h2>
                 <h2>Monday, 18th November, 1-5 pm, 2024</h2>
-                
-                <div className="wrapper">
-                    <div className="one">
-                        <Redirect url="https://docs.google.com/forms/d/e/1FAIpQLSfba2J5J1q-9A-s53gr0Bnf4NQ_Qi_UL2PNPz6nXywxh0PkVg/viewform?usp=sf_link" text= "Student Registration"/>
-                    </div>
-                    
+                <div className="regButton">
+                <Redirect 
+                url="https://docs.google.com/forms/d/e/1FAIpQLSfba2J5J1q-9A-s53gr0Bnf4NQ_Qi_UL2PNPz6nXywxh0PkVg/viewform?usp=sf_link" 
+                text= "Student Registration"/>
                 </div>
             </div>
         </div>
-    );//Only need one button, could you guys center this
-};//just add the url to the two buttons and change text to change what appears on the button
+    );
+};
