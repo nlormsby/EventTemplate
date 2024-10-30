@@ -220,8 +220,8 @@ hr {
   /* padding-top: 70px; */
 }
 #faqTitle {
-  margin: 50px;
-  padding-bottom: 50px;
+  margin: 5px;
+  padding-bottom: 10px;
 }
 #faqBody {
   width: 70%;
@@ -231,7 +231,7 @@ hr {
   font-size: 30px;
 }
 .faqSec {
-  padding: 20px;
+  padding: 5px;
 }
 
 
