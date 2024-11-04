@@ -418,11 +418,27 @@ hr {
     width: 170px;
     height: 60px;
     font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .home {
+    height: fit-content;
   }
 
   #about {
     scroll-margin-top: 0px;
+    height: fit-content;
   }
+
+  .column {
+    column-count: 1;
+  }
+  
+  .aImg img {
+    width: 100%;
+    height:auto;
+    margin: auto;
+  }
+
   .aboutP {
     overflow: auto;
     font-size: 20px;
